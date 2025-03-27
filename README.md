@@ -9,6 +9,6 @@ Pinterest Downloader can scrape previews, images and videos from Pinterest
 - Download media
 
 ## How to use ?
-Download & Extract [PinScraper.zip]((https://github.com/EasingSoft/PinterestDownloader/releases/download/1/PinScraper.zip) and Run PinScraper.exe
+Download & Extract [PinterestDownloader.zip](https://github.com/EasingSoft/PinterestDownloader/releases/download/1/PinterestDownloader.zip) and Run PinterestDownloader.exe
 
 #### Made on Mar 2025
