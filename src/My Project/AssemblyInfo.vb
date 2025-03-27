@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("PinScraper")>
+<Assembly: AssemblyTitle("PinterestDownloader")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("PinScraper")>
+<Assembly: AssemblyProduct("PinterestDownloader")>
 <Assembly: AssemblyCopyright("Copyright ©  2025")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("1b0ab0d2-cc27-4415-b5c2-356f54740b36")>
+<Assembly: Guid("8f27c1af-0b4b-41ad-9357-c4eb67c32c13")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -27,9 +27,6 @@ Imports System.Runtime.InteropServices
 '      Build Number
 '      Revision
 '
-' You can specify all the values or you can default the Build and Revision Numbers
-' by using the '*' as shown below:
-' <Assembly: AssemblyVersion("1.0.*")>
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>

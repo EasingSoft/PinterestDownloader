@@ -33,19 +33,20 @@ Module Pinterest
                 .seoDrawerEnabled = False,
                 .source_id = CType(Nothing, Object),
                 .source_module_id = CType(Nothing, Object),
-                .source_url = $"/search/{mediatype}/?q={keyword}&rs=typed",
+                .source_url = $"/search/{mediatype}/?q={keyword}&rs=content_type_filter",
                 .top_pin_id = CType(Nothing, Object),
                 .top_pin_ids = CType(Nothing, Object)
             },
             .context = New With {.dummy = ""}
         }
+        '/search/videos/?q=cat&rs=content_type_filter
 
         ' Serialize the requestData object to JSON
         Dim serializer As New JavaScriptSerializer()
         Dim dataJson As String = serializer.Serialize(requestData)
 
         ' Build the source_url parameter
-        Dim sourceUrl As String = $"/search/pins/?q={keyword}&rs=typed"
+        Dim sourceUrl As String = $"/search/{mediatype}/?q={keyword}&rs=content_type_filter"
 
         ' Build URL with dynamic serialized data and current timestamp in milliseconds
         Dim timestamp As Long = CLng((DateTimeOffset.UtcNow - New DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalMilliseconds)
