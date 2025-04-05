@@ -92,7 +92,7 @@ Module Pinterest
     Public Async Function FindSimilarFetch(pinId As String, Optional count As Integer = 12) As Task(Of List(Of Pin))
         ' Create dynamic request object for JSON data
         Dim requestData = New With {
-                .queryHash = "a558f607e40319fbc84902812d275557d1093a2b2fabdecd4d5263ad6a44465c",
+                .queryHash = "d096ce49cb4b2a7a976803424fb672842e9f4fd468dfc856d846c45c382113ff",
                 .variables = New With {
                     .pinId = pinId,
                     .count = count,
